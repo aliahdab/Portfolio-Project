@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 
 class About extends Component {
 
-    render() {
-        <div >
+  render() {
+    return (
+      <div >
 
-        </div>
-
-    }
+      </div>
+    )
+  }
 }
-
 export default About;
