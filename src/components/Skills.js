@@ -3,10 +3,11 @@ import React, { Component } from 'react';
 class Skills extends Component {
 
     render() {
-        <div >
+        return (
+            <div >
 
-        </div>
-
+            </div>
+        )
     }
 }
 

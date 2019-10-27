@@ -3,10 +3,11 @@ import React, { Component } from 'react';
 class Projects extends Component {
 
     render() {
-        <div >
-           
-        </div>
+        return (
+            <div >
 
+            </div>
+        )
     }
 }
 
