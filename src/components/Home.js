@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 
 class Home extends Component {
 
-    render() {
-        <div >
-  
-        </div>
+  render() {
+    return (
+      <div >
 
-    }
+      </div>
+    )
+  }
 }
 
 export default Home;

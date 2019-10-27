@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 
 class Projects extends Component {
 
-    render() {
-        <div >
-           
-        </div>
+  render() {
+    return (
+      <div >
 
-    }
+      </div>
+    )
+  }
 }
-
 export default Projects;
