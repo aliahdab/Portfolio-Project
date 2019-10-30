@@ -15,9 +15,7 @@ body {
   color: #323232;
 }
 
-img {
-  max-width: 200%;
-}
+img {}
 
 
 .home-icon {
@@ -40,11 +38,16 @@ a:hover {
 }
 
 .home-container {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 25px;
+  max-width: 70%;
+  margin: 4% auto;
+  padding: 5%;
   background: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin: 6%;
+  margin-left: 0%;
 }
 
 section {
@@ -55,18 +58,8 @@ section {
   border-bottom: 1px solid lightgrey;
 }
 
-section:last-child {
-  border-bottom: none;
-}
-
-.section-title {
-  font-weight: bold;
-  font-size: 18px;
-
-}
-
 img.avatar {
-  width: 140px;
+  width: 600px;
 }
 
 .home-my-name {
@@ -91,56 +84,7 @@ img.avatar {
   margin: 5px;
   display: flex;
   align-items: center;
-  flex: 1;
+  flex: 1 1;
 }
 
-home-link-item-tel {
-  align-self: hover;
-}
-
-.job {
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-  border-bottom: 0.5px solid lightgrey;
-}
-
-.job:last-child {
-  border-bottom: none;
-}
-
-.link-item svg {
-  margin-right: 8px
-}
-
-
-
-.job-title-container {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 12px;
-  font-size: 18px;
-}
-
-.job-company {
-  font-weight: bold;
-  line-height: 1.2;
-}
-
-.interests-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.interests-container {
-  height: 30px;
-  opacity: 0.75;
-}
-
-.reference {
-  font-size: 18px;
-}
-
-.reference-details {
-  margin-bottom: 10;
-
-}
+home-link-item-tel {}
