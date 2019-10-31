@@ -25,6 +25,96 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+  background: #f2f2f2;
+  color: #323232;
+}
+
+img {
+}
+
+.home-icon {
+  margin-right: 3px;
+  padding: 1.5px;
+  fill: currentColor;
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+}
+
+a {
+  color: #323232;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.home-container {
+  max-width: 70%;
+  margin: 4% auto;
+  padding: 5%;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin: 6%;
+  margin-left: 0%;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 20px;
+  padding: 24px 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+img.avatar {
+  width: 600px;
+}
+
+.home-my-name {
+  margin: 20px;
+  margin-left: 0px;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.home-my-title {
+  font-size: 16px;
+  font-weight: 300;
+  color: black;
+}
+
+.home-links {
+  display: flex;
+  margin: 6px 0 16px 0;
+}
+
+.home-link-item {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  flex: 1 1;
+}
+
+home-link-item-tel {
 }
 
 .buttons-list{
