@@ -1,14 +1,45 @@
-.App {
-  text-align: center;
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header_area {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 99;
+  background-color: #85a3e0a1;
+}
+
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.buttons-list{
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.buttons{
+  color: #a81b45;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
 }
