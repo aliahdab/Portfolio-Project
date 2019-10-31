@@ -65,7 +65,7 @@ a:hover {
 .home-container {
   max-width: 70%;
   margin: 7% auto;
-  padding: 5%;
+  padding: 1%;
   background: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -84,7 +84,7 @@ section {
 }
 
 img.avatar {
-  width: 600px;
+  width: 57git 0px;
 }
 
 .home-my-name {
