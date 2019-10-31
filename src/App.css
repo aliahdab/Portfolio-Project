@@ -1,5 +1,30 @@
-html {
-  box-sizing: border-box;
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.header_area {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 99;
+  background-color: #85a3e0a1;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 *,
@@ -13,9 +38,6 @@ body {
   line-height: 1.5;
   background: #f2f2f2;
   color: #323232;
-}
-
-img {
 }
 
 .home-icon {
@@ -85,4 +107,24 @@ img.avatar {
   display: flex;
   align-items: center;
   flex: 1 1;
+}
+
+home-link-item-tel {
+}
+
+.buttons-list {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.buttons {
+  color: #a81b45;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
 }
