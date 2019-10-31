@@ -42,7 +42,7 @@ a:hover {
   margin: 4% auto;
   padding: 5%;
   background: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(12, 33, 80, 0.226);
 }
 
 p {
@@ -85,7 +85,4 @@ img.avatar {
   display: flex;
   align-items: center;
   flex: 1 1;
-}
-
-home-link-item-tel {
 }
