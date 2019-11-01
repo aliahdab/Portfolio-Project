@@ -13,7 +13,7 @@
   top: 0px;
   left: 0px;
   z-index: 99;
-  background: #0b0753;
+  background: #074753;
   background: linear-gradient(to right, #7773ff, #7fb1ff, #87ebff);
 }
 
@@ -114,7 +114,8 @@ img.avatar {
   flex: 1 1;
 }
 
-home-link-item-tel {}
+home-link-item-tel {
+}
 
 .buttons-list {
   display: flex;
