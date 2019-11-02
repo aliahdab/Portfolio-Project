@@ -8,7 +8,7 @@
 }
 
 .header_area {
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0px;
   left: 0px;
@@ -114,9 +114,6 @@ img.avatar {
   flex: 1 1;
 }
 
-home-link-item-tel {
-}
-
 .buttons-list {
   display: flex;
   flex-direction: row;
@@ -132,4 +129,5 @@ home-link-item-tel {
 img {
   vertical-align: middle;
   border-style: none;
+  border-radius: 100%;
 }
