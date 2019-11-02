@@ -87,6 +87,7 @@ section {
 
 img.avatar {
   width: 570px;
+  padding: 1%;
 }
 
 .home-my-name {
@@ -129,7 +130,7 @@ img.avatar {
 img {
   vertical-align: middle;
   border-style: none;
-  border-radius: 10%;
+  border-radius: 5%;
 }
 
 .job {
@@ -154,7 +155,7 @@ img {
 
 .experience-container {
   max-width: 70%;
-  margin: 7% auto;
+  margin: 4% auto;
   padding: 1%;
   background: white;
   box-shadow: 0 2px 4px rgba(12, 33, 80, 0.226);
