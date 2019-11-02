@@ -41,9 +41,6 @@ class Home extends Component {
               <li> Microsoft Forefront Threat Management Gateway 2010.</li>
               <li> Microsoft Mail System (Exchange server (2003-2007-2010)).</li>
             </ul>
-
-
-            <p></p>
           </div>
         </div>
       </section>
