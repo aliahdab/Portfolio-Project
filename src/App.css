@@ -131,3 +131,49 @@ img {
   border-style: none;
   border-radius: 100%;
 }
+
+.job {
+  margin-top: 5%;
+  padding-bottom: 1%;
+  margin-bottom: 2%;
+  border-bottom: 0.5px solid lightgrey;
+}
+
+.experience-section-title {
+  margin: 8%;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.job:last-child {
+  border-bottom: none;
+}
+
+.link-item svg {
+  margin-right: 8px;
+}
+
+.experience-container {
+  max-width: 70%;
+  margin: 7% auto;
+  padding: 1%;
+  background: white;
+  box-shadow: 0 2px 4px rgba(12, 33, 80, 0.226);
+}
+
+.job-p {
+  margin: 2%;
+  margin-left: 0%;
+}
+.job-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+.job_year {
+  margin: 1.8%;
+}
+.job-company {
+  font-weight: bold;
+  line-height: 1.2;
+}
