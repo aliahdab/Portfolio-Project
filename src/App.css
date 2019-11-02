@@ -13,7 +13,7 @@
   top: 0px;
   left: 0px;
   z-index: 99;
-  background: #0b0753;
+  background: #074753;
   background: linear-gradient(to right, #7773ff, #7fb1ff, #87ebff);
 }
 
@@ -35,7 +35,7 @@
 }
 
 .main_menu {
-  margin-right: 12%;
+  margin-right: 12.5%;
 }
 
 body {
