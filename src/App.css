@@ -135,8 +135,9 @@ img {
 }
 
 .job {
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  margin-top: 5%;
+  padding-bottom: 1%;
+  margin-bottom: 2%;
   border-bottom: 0.5px solid lightgrey;
 }
 
@@ -160,13 +161,20 @@ img {
   background: white;
   box-shadow: 0 2px 4px rgba(12, 33, 80, 0.226);
 }
+
+.job-p {
+  margin: 2%;
+  margin-left: 0%;
+}
 .job-title-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 12px;
   font-size: 18px;
 }
-
+.job_year {
+  margin: 2%;
+}
 .job-company {
   font-weight: bold;
   line-height: 1.2;
