@@ -117,12 +117,13 @@ img.avatar {
 .buttons-list {
   display: flex;
   flex-direction: row;
-  width: 60%;
+  width: 50%;
   justify-content: space-between;
   align-self: center;
 }
 
 .buttons {
+  cursor: pointer;
   color: white;
 }
 
