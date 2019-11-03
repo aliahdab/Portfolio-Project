@@ -10,7 +10,7 @@ class App extends Component {
     window.scrollTo(0, 0);
   }
   scrollToExperience = () => {
-    window.scrollTo(0, 740);
+    window.scrollTo(0, 720);
   }
   scrollToSkills = () => {
     window.scrollTo(0, 1400);
