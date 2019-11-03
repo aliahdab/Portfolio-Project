@@ -8,7 +8,7 @@
 }
 
 .header_area {
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0px;
   left: 0px;
@@ -68,7 +68,8 @@ a:hover {
   text-decoration: underline;
 }
 
-.home-container {
+.home-container,
+.admin-container {
   max-width: 70%;
   margin: 7% auto;
   padding: 1%;
@@ -91,6 +92,7 @@ section {
 
 img.avatar {
   width: 570px;
+  padding: 1%;
 }
 
 .home-my-name {
@@ -118,23 +120,10 @@ img.avatar {
   flex: 1 1;
 }
 
-home-link-item-tel {}
-
-.buttons-list {
-  display: flex;
-  flex-direction: row;
-  width: 60%;
-  justify-content: space-between;
-  align-self: center;
-}
-
-.buttons {
-  color: white;
-}
-
 img {
   vertical-align: middle;
   border-style: none;
+  border-radius: 5%;
 }
 
 .job {
@@ -179,7 +168,7 @@ img {
 }
 
 .job_year {
-  margin: 2%;
+  margin: 1.8%;
 }
 
 .job-company {

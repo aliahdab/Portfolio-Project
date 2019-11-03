@@ -6,7 +6,7 @@ class Home extends Component {
   render() {
     return (
       <section className="home-container">
-        <div> <img src={Image} alt="avatar" className="avatar" /></div>
+        <div > <img src={Image} alt="personal_photo" className="avatar" /></div>
         <div>
           <h4>HELLO EVERYBODY, I AM</h4>
           <div className="home-my-name"> Ali Ahdab</div>

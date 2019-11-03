@@ -9,6 +9,7 @@ function Navigation() {
         <div className="main_menu">
           <nav className="navbar">
             <ul className="navigation-container">
+
               <Link to="/Home" >
                 <li>Home</li>
               </Link>

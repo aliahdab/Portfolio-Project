@@ -9,17 +9,18 @@ import Projects from './components/Projects.js';
 
 
 class App extends Component {
-
   render() {
     return (
       <Router>
         <div className="App">
           <Navigation></Navigation>
-          <Route path="/home" component={Home} />
-          <Route path="/experience" component={Experience} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/" exact component={Home} />
+          <Switch>
+            <Route path="/home" component={Home} />
+            <Route path="/experience" component={Experience} />
+            <Route path="/skills" component={Skills} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/" exact component={Home} />
+          </Switch>
         </div>
       </Router>
     )
