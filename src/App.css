@@ -26,6 +26,8 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  list-style: none;
+
 }
 
 *,
@@ -34,9 +36,11 @@
   box-sizing: inherit;
 }
 
+
 .main_menu {
-  margin-right: 12.5%;
+  margin-left: 40%;
 }
+
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -114,8 +118,7 @@ img.avatar {
   flex: 1 1;
 }
 
-home-link-item-tel {
-}
+home-link-item-tel {}
 
 .buttons-list {
   display: flex;
@@ -146,6 +149,7 @@ img {
   font-weight: bold;
   font-size: 1.4em;
 }
+
 .job:last-child {
   border-bottom: none;
 }
@@ -166,15 +170,18 @@ img {
   margin: 2%;
   margin-left: 0%;
 }
+
 .job-title-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 12px;
   font-size: 18px;
 }
+
 .job_year {
   margin: 2%;
 }
+
 .job-company {
   font-weight: bold;
   line-height: 1.2;

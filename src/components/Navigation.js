@@ -1,30 +1,36 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom'
 
+function Navigation() {
 
-class Navigation extends Component {
+  return (
+    <div >
+      <header className="header_area">
+        <div className="main_menu">
+          <nav className="navbar">
+            <ul className="navigation-container">
+              <Link to="/Home" >
+                <li>Home</li>
+              </Link>
+              <Link to="/About" >
+                <li>About</li>
+              </Link>
+              <Link to="/Skills" >
+                <li>Skills</li>
+              </Link>
+              <Link to="/Experience" >
+                <li>Experience</li>
+              </Link>
+              <Link to="/Projects" >
+                <li>Projects</li>
+              </Link>
 
-  render() {
-    return (
-      <div >
-        <header className="header_area">
-          <div className="main_menu">
-            <nav className="navbar">
-              <div className="navigation-container">
-                <h2 className="navbar-brand logo_h"><img alt="" src="img/logo.png" />Name</h2>
-                <div className="buttons-list">
-                  <div className="buttons">Home</div>
-                  <div className="buttons">About</div>
-                  <div className="buttons">Experience</div>
-                  <div className="buttons">Skills</div>
-                  <div className="buttons">Projects</div>
-                </div>
-              </div>
-            </nav>
-          </div>
-        </header>
-      </div>
-    )
-  }
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+  )
 }
 
 export default Navigation;

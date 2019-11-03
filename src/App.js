@@ -1,19 +1,27 @@
 import React, { Component } from 'react';
 import './App.css';
-import Home from './components/Home'
-import Navigation from './components/Navigation'
-import Experience from './components/Experience'
+import Home from './components/Home';
+import Navigation from './components/Navigation';
+import Experience from './components/Experience';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Skills from './components/Skills';
+import Projects from './components/Projects.js';
+
 
 class App extends Component {
 
   render() {
     return (
-
-      <div className="App">
-        <Navigation></Navigation>
-        <Home></Home>
-        <Experience></Experience>
-      </div>
+      <Router>
+        <div className="App">
+          <Navigation></Navigation>
+          <Route path="/home" component={Home} />
+          <Route path="/experience" component={Experience} />
+          <Route path="/skills" component={Skills} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/" exact component={Home} />
+        </div>
+      </Router>
     )
 
   }
