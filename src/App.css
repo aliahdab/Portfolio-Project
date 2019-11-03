@@ -64,7 +64,8 @@ a:hover {
   text-decoration: underline;
 }
 
-.home-container {
+.home-container,
+.admin-container {
   max-width: 70%;
   margin: 7% auto;
   padding: 1%;
@@ -146,6 +147,7 @@ img {
   font-weight: bold;
   font-size: 1.4em;
 }
+
 .job:last-child {
   border-bottom: none;
 }
@@ -166,16 +168,23 @@ img {
   margin: 2%;
   margin-left: 0%;
 }
+
 .job-title-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 12px;
   font-size: 18px;
 }
+
 .job_year {
   margin: 1.8%;
 }
+
 .job-company {
   font-weight: bold;
   line-height: 1.2;
+}
+
+input {
+  margin: 10%;
 }
