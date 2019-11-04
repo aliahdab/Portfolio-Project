@@ -11,14 +11,24 @@ class Chart extends Component {
         plotOptions: {
           bar: {
             horizontal: true,
+            distributed: true,
           }
+        },
+
+        grid: {
+          column: {
+            colors: ['#e6fff8', '#ffffe6', '#ffe6ff']
+          }
+        },
+        fill: {
+          colors: ['#7773ff', '#7fb1ff', '#87ebff']
         },
         dataLabels: {
           enabled: false
         },
         xaxis: {
           categories: ['GIT', 'Java', 'Javascript', 'CISCO CCNA', 'Exchange Server', 'SQL', 'Oracle', 'Virtual Systems'],
-        }
+        },
       },
       series: [{
         data: [70, 80, 85, 95, 95, 75, 60, 70]
