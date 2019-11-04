@@ -13,7 +13,7 @@ function Navigation() {
               <Link to="/Home" >
                 <li>Home</li>
               </Link>
-              <Link to="/About" >
+              <Link to="/Admin" >
                 <li>About</li>
               </Link>
               <Link to="/Skills" >

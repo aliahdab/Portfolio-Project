@@ -24,6 +24,7 @@ export class Admin extends Component {
 
           <input type="submit" value="Submit" />
         </form>
+
       </section>
     )
 
@@ -31,3 +32,5 @@ export class Admin extends Component {
 }
 
 export default Admin
+
+
