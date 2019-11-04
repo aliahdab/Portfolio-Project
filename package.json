@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "apexcharts": "^3.10.1",
+    "chart.js": "^2.9.2",
     "firebase": "^7.2.3",
     "linkedin-login-for-react": "^1.2.3",
     "react": "^16.10.2",
+    "react-apexcharts": "^1.3.3",
+    "react-chartjs-2": "^2.8.0",
     "react-dom": "^16.10.2",
     "react-linkedin-login-oauth2": "^1.0.7",
     "react-linkedin-sdk": "^1.0.12",
+    "react-score-indicator": "^2.1.1",
     "react-scripts": "3.2.0"
   },
   "scripts": {

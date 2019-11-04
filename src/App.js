@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Skills from './components/Skills';
 import Projects from './components/Projects.js';
 import Admin from './components/Admin.js';
+import Chart from './components/Chart.js'
 
 
 class App extends Component {
@@ -24,9 +25,10 @@ class App extends Component {
             <Route path="/" exact component={Home} />
           </Switch>
         </div>
-      </Router>
-    )
 
+      </Router>
+
+    )
   }
 }
 
