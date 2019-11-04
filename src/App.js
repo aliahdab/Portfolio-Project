@@ -1,36 +1,30 @@
 import React, { Component } from 'react';
 import './App.css';
-import Home from './components/Home'
-import Navigation from './components/Navigation'
-import Experience from './components/Experience'
-import firebaseData from './components/Firebase'
+import Home from './components/Home';
+import Navigation from './components/Navigation';
+import Experience from './components/Experience';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Skills from './components/Skills';
+import Projects from './components/Projects.js';
+import Admin from './components/Admin.js';
+
 
 class App extends Component {
-  
-  scrollToHome = () => {
-    window.history.pushState(null, null, 'home');
-    window.scrollTo(0, 0);
-  }
-  scrollToExperience = () => {
-    window.history.pushState(null, null, 'experience');
-    window.scrollTo(0, 720);
-  }
-  scrollToSkills = () => {
-    window.history.pushState(null, null, 'skills');
-    window.scrollTo(0, 1400);
-  }
-  scrollToProjects = () => {
-    window.history.pushState(null, null, 'projects');
-    window.scrollTo(0, 2100);
-  }
-
   render() {
     return (
-      <div className="App">
-        <Navigation scrollToHome = {this.scrollToHome} scrollToExperience = {this.scrollToExperience} scrollToSkills = {this.scrollToSkills} scrollToProjects = {this.scrollToProjects}></Navigation>
-        <Home></Home>
-        <Experience ></Experience>
-      </div>
+      <Router>
+        <div className="App">
+          <Navigation></Navigation>
+          <Switch>
+            <Route path="/home" component={Home} />
+            <Route path="/experience" component={Experience} />
+            <Route path="/skills" component={Skills} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/admin" component={Admin} />
+            <Route path="/" exact component={Home} />
+          </Switch>
+        </div>
+      </Router>
     )
 
   }

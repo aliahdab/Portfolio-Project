@@ -26,6 +26,8 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  list-style: none;
+
 }
 
 *,
@@ -34,9 +36,12 @@
   box-sizing: inherit;
 }
 
+
 .main_menu {
-  margin-right: 12.5%;
+  margin-left: 30%;
+  margin-right: 12%;
 }
+
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -64,7 +69,10 @@ a:hover {
   text-decoration: underline;
 }
 
-.home-container {
+.home-container,
+.admin-container,
+.experience-container,
+.skills-container {
   max-width: 70%;
   margin: 7% auto;
   padding: 1%;
@@ -115,19 +123,6 @@ img.avatar {
   flex: 1 1;
 }
 
-.buttons-list {
-  display: flex;
-  flex-direction: row;
-  width: 50%;
-  justify-content: space-between;
-  align-self: center;
-}
-
-.buttons {
-  cursor: pointer;
-  color: white;
-}
-
 img {
   vertical-align: middle;
   border-style: none;
@@ -141,11 +136,13 @@ img {
   border-bottom: 0.5px solid lightgrey;
 }
 
-.experience-section-title {
+.experience-section-title,
+.skills-section-title {
   margin: 8%;
   font-weight: bold;
   font-size: 1.4em;
 }
+
 .job:last-child {
   border-bottom: none;
 }
@@ -154,27 +151,24 @@ img {
   margin-right: 8px;
 }
 
-.experience-container {
-  max-width: 70%;
-  margin: 4% auto;
-  padding: 1%;
-  background: white;
-  box-shadow: 0 2px 4px rgba(12, 33, 80, 0.226);
-}
+
 
 .job-p {
   margin: 2%;
   margin-left: 0%;
 }
+
 .job-title-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 12px;
   font-size: 18px;
 }
+
 .job_year {
   margin: 1.8%;
 }
+
 .job-company {
   font-weight: bold;
   line-height: 1.2;
