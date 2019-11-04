@@ -29,7 +29,7 @@ class Chart extends Component {
   render() {
     return (
       <div className="skills_chart">
-        <ReactApexCharts options={this.state.options} series={this.state.series} type="bar" height="242" />
+        <ReactApexCharts options={this.state.options} series={this.state.series} type="bar" height="241" />
       </div>
 
     )
