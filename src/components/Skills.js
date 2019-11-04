@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Chart from './Chart.js';
 
 class Skills extends Component {
 
@@ -22,10 +23,16 @@ class Skills extends Component {
 
             </ul>
             <div>
-            </div></div></section>
+              <Chart />
+            </div>
+          </div></section>
       </div>
     )
   }
 }
 
 export default Skills;
+
+
+
+
