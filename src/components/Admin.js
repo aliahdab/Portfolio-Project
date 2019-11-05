@@ -4,27 +4,28 @@ export class Admin extends Component {
   render() {
     return (
       <section className="admin-container">
-        <form>
-          <label className="admin-project-name">
+        <form className="admin-form">
+          <h2> Add a project
+          </h2>
+          <label className="admin-label">
             Project Name:
              <input type="text" name="name" />
           </label>
-          <label className="admin-project-des">
+          <label className="admin-label">
             Project Description:
-             <input type="text" name="description" />
+             <textarea type="text" name="description" />
           </label>
-          <label className="admin-project-link">
-            Project Link on Git:
+          <address className="admin-label">
+            Project Address:
              <input type="text" name="link" />
-          </label>
-          <label className="admin-project-create-date">
+          </address>
+          <label className="admin-label">
             Project Creation Date:
              <input type="text" name="link" />
           </label>
 
           <input type="submit" value="Submit" />
         </form>
-
       </section>
     )
 

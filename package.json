@@ -14,7 +14,8 @@
     "react-linkedin-login-oauth2": "^1.0.7",
     "react-linkedin-sdk": "^1.0.12",
     "react-score-indicator": "^2.1.1",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "super-easy-react-forms": "^1.0.4"
   },
   "scripts": {
     "start": "react-scripts start",

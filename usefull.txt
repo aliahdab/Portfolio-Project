@@ -3,3 +3,5 @@ https://apexcharts.com/react-chart-demos/bar-charts/basic/
  
 Commands 
 npm install react-apexcharts --save
+
+https://github.com/ragingRobot/super-easy-react-forms#readme

@@ -33,6 +33,7 @@ class Chart extends Component {
       series: [{
         data: [70, 80, 85, 95, 95, 75, 60, 70]
       }],
+
     }
   }
 
