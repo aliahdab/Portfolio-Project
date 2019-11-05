@@ -24,7 +24,6 @@ class App extends Component {
             <Route path="/" exact component={Home} />
           </Switch>
         </div>
-
       </Router>
 
     )
