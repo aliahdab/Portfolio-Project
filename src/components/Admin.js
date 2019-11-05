@@ -23,7 +23,7 @@ export class Admin extends Component {
              <textarea type="text" name="description" />
           </label>
 
-          <input type="submit" value="Submit" />
+          <input type="submit" value="Confirm & Add The Project " />
         </form>
       </section>
     )
