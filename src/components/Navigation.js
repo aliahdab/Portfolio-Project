@@ -14,7 +14,7 @@ function Navigation() {
                 <li>Home</li>
               </Link>
               <Link to="/Admin" >
-                <li>Admin</li>
+                <li>About</li>
               </Link>
               <Link to="/Skills" >
                 <li>Skills</li>

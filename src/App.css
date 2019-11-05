@@ -72,7 +72,8 @@ a:hover {
 .home-container,
 .admin-container,
 .experience-container,
-.skills-container {
+.skills-container,
+.project-container {
   max-width: 70%;
   margin: 7% auto;
   padding: 1%;
@@ -94,7 +95,7 @@ section {
 }
 
 img.avatar {
-  width: 570px;
+  width: 548px;
   padding: 1%;
 }
 
@@ -138,7 +139,7 @@ img {
 
 .experience-section-title,
 .skills-section-title {
-  margin: 8%;
+  margin: 10%;
   font-weight: bold;
   font-size: 1.4em;
 }
@@ -150,8 +151,6 @@ img {
 .link-item svg {
   margin-right: 8px;
 }
-
-
 
 .job-p {
   margin: 2%;
@@ -172,4 +171,38 @@ img {
 .job-company {
   font-weight: bold;
   line-height: 1.2;
+}
+
+.skills-continent {
+  margin: 3%;
+  margin-bottom: 0%;
+}
+
+.skills_chart {
+  margin-right: 20%;
+}
+
+.admin-form {
+  display: grid;
+  margin: 3%;
+  padding: 4%;
+}
+
+.admin-label {
+  width: 100%;
+  margin: 0, 10%;
+  padding: 0, 5%;
+}
+
+input {
+  margin: 10%;
+  padding: 6%;
+  margin-left: 0%;
+  width: 150%;
+}
+
+textarea {
+  padding: 6%;
+  width: 300%;
+  height: 100%;
 }
