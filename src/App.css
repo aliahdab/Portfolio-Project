@@ -72,7 +72,8 @@ a:hover {
 .home-container,
 .admin-container,
 .experience-container,
-.skills-container {
+.skills-container,
+.project-container {
   max-width: 70%;
   margin: 7% auto;
   padding: 1%;
