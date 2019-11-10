@@ -10,19 +10,19 @@ function Navigation() {
           <nav className="navbar">
             <ul className="navigation-container">
               <Link to="/Home" >
-                <li>Home</li>
+                <li className='nav-words'>Home</li>
               </Link>
               <Link to="/Skills" >
-                <li>Skills</li>
+                <li className='nav-words'>Skills</li>
               </Link>
               <Link to="/Experience" >
-                <li>Experience</li>
+                <li className='nav-words'>Experience</li>
               </Link>
               <Link to="/Projects" >
-                <li>Projects</li>
+                <li className='nav-words'>Projects</li>
               </Link>
               <Link to="/Admin" >
-                <li>Admin</li>
+                <li className='nav-words'>Admin</li>
               </Link>
             </ul>
           </nav>

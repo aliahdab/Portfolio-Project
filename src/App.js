@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Skills from './components/Skills';
 import Projects from './components/Projects.js';
 import Admin from './components/Admin.js';
+// import Image from "./components/img/background.jpg"
 
 
 
@@ -17,6 +18,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+          {/* <img className='img-bg' src={Image} alt='background image'></img> */}
           <Navigation></Navigation>
           <Switch>
             <Route path="/home" component={Home} />

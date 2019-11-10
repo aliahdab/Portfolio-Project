@@ -1,3 +1,14 @@
+
+
+/* .img-bg {
+  position: absolute;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+} */
+
 .navbar {
   position: relative;
   display: flex;
@@ -13,8 +24,7 @@
   top: 0px;
   left: 0px;
   z-index: 99;
-  background: #074753;
-  background: linear-gradient(to right, #7773ff, #7fb1ff, #87ebff);
+  background: linear-gradient(to right, #af2020d5, #b32d2dd3, #cc5555de);
 }
 
 .navigation-container {
@@ -27,27 +37,26 @@
   margin-right: auto;
   margin-left: auto;
   list-style: none;
-
 }
 
-*,
-*:before,
-*:after {
+.nav-words {
+  color: beige;
+}
+
+*, *:before, *:after {
   box-sizing: inherit;
 }
-
 
 .main_menu {
   margin-left: 30%;
   margin-right: 12%;
 }
 
-
 body {
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.5;
-  background: #f2f2f2;
-  color: #323232;
+  background: url("components/img/background.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 .home-icon {
@@ -61,7 +70,7 @@ body {
 }
 
 a {
-  color: #323232;
+  color:#bdcde4;;
   text-decoration: none;
 }
 
@@ -69,16 +78,13 @@ a:hover {
   text-decoration: underline;
 }
 
-.home-container,
-.admin-container,
-.experience-container,
-.skills-container,
-.projects-container {
-  max-width: 70%;
+.home-container, .admin-container, .experience-container, .skills-container, .projects-container {
+  max-width: 42%;
   margin: 7% auto;
+  margin-left: 10%;
+  margin-bottom: 0px;
   padding: 1%;
-  background: white;
-  box-shadow: 0 2px 4px rgba(12, 33, 80, 0.226);
+  background:#1303034b
 }
 
 p {
@@ -91,12 +97,10 @@ section {
   grid-template-columns: 1fr 4fr;
   grid-gap: 20px;
   padding: 24px 0;
-  border-bottom: 1px solid lightgrey;
 }
 
 img.avatar {
-  width: 548px;
-  padding: 1%;
+  width: 15rem;
 }
 
 .home-my-name {
@@ -104,17 +108,20 @@ img.avatar {
   margin-left: 0px;
   font-size: 48px;
   line-height: 1;
+  color: #e7d3d3;
 }
 
-.home-my-title {
-  font-size: 16px;
+.home-my-title , .home-my-description {
+  font-size: 20px;
   font-weight: 300;
   color: black;
+  color: #e7d3d3;
 }
 
 .home-links {
   display: flex;
   margin: 6px 0 16px 0;
+  color: #e7d3d3;
 }
 
 .home-link-item {
@@ -122,12 +129,13 @@ img.avatar {
   display: flex;
   align-items: center;
   flex: 1 1;
+  color: #bdcde4;
 }
 
 img {
   vertical-align: middle;
   border-style: none;
-  border-radius: 5%;
+  border-radius: 1%;
 }
 
 .job {
@@ -137,9 +145,7 @@ img {
   border-bottom: 0.5px solid lightgrey;
 }
 
-.experience-section-title,
-.skills-section-title,
-.project-section-title {
+.experience-section-title, .skills-section-title, .project-section-title {
   margin: 10%;
   font-weight: bold;
   font-size: 1.4em;
