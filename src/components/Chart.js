@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactApexCharts from 'react-apexcharts'
+import ReactApexCharts from 'react-apexcharts';
 
 class Chart extends Component {
 
