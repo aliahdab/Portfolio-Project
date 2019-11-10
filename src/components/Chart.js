@@ -14,7 +14,6 @@ class Chart extends Component {
             distributed: true,
           }
         },
-
         grid: {
           column: {
             colors: ['#e6fff8', '#ffffe6', '#ffe6ff']

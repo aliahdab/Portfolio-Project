@@ -9,12 +9,8 @@ function Navigation() {
         <div className="main_menu">
           <nav className="navbar">
             <ul className="navigation-container">
-
               <Link to="/Home" >
                 <li>Home</li>
-              </Link>
-              <Link to="/Admin" >
-                <li>About</li>
               </Link>
               <Link to="/Skills" >
                 <li>Skills</li>
@@ -25,7 +21,9 @@ function Navigation() {
               <Link to="/Projects" >
                 <li>Projects</li>
               </Link>
-
+              <Link to="/Admin" >
+                <li>Admin</li>
+              </Link>
             </ul>
           </nav>
         </div>
