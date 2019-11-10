@@ -9,6 +9,7 @@ import Projects from './components/Projects.js';
 import Admin from './components/Admin.js';
 
 
+
 class App extends Component {
   render() {
     return (
@@ -22,6 +23,7 @@ class App extends Component {
             <Route path="/projects" component={Projects} />
             <Route path="/admin" component={Admin} />
             <Route path="/" exact component={Home} />
+
           </Switch>
         </div>
       </Router>
