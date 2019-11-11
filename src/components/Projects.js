@@ -4,16 +4,24 @@ class Projects extends Component {
 
   render() {
     return (
-      <div >
-        <section class="projects-container">
-          <div className="project-section-title"></div>
-          <div class="project-description">
-            <p></p>
+      <section className="projects-container">
+        <div className="project-section-title">Projects</div>
+        <div>
+          <div className="project">
+            <div className="project-title-container">
+              <div>
+                <div className="project-title">Future Gate Soft CO</div>
+              </div>
+              <div className="project_date">
+                Jan 2013 - Jan 2015
           </div>
-          <div class='project-creation-date'></div>
-          <div class='project-address'></div>
-        </section>
-      </div>
+            </div>
+            <p className="project-description"> Future Gate Soft is a company located in Doha Qatar and between 2011-2015 I was working with their Damascus branch in a collaboration with the main head office in Doha, where I was responsible for administration and configuring Domain Controller, DNS, DHCP, File Server, E-mail server, Microsoft Forefront Threat Management Gateway Server, Hyper-V, and Microsoft team foundation server 2010.
+         </p>
+          </div>
+        </div>
+      </section>
+
     )
   }
 }

@@ -1,16 +1,22 @@
 import React, { Component } from 'react';
 import './App.css';
 import Home from './components/Home';
+import firebase from 'firebase';
 import Navigation from './components/Navigation';
 import Experience from './components/Experience';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Skills from './components/Skills';
 import Projects from './components/Projects.js';
 import Admin from './components/Admin.js';
-
+import { init as firebaseInit } from './components/config/firebase'
 
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+    firebaseInit()
+  }
+
   render() {
     return (
       <Router>
