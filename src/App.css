@@ -103,7 +103,7 @@ img.avatar {
   width: 15rem;
 }
 
-.home-my-name {
+.home-my-name , .project-info-name {
   margin: 20px;
   margin-left: 0px;
   font-size: 48px;
@@ -111,7 +111,7 @@ img.avatar {
   color: #e7d3d3;
 }
 
-.home-my-title , .home-my-description {
+.home-my-title , .home-my-description , .project-info-description , .project-info-url{
   font-size: 20px;
   font-weight: 300;
   color: black;
