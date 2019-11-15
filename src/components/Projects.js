@@ -24,7 +24,6 @@ class Projects extends Component {
         </div>
       )
     });
-    console.log('xxxxxxxxxxxx', this.projectsList);
   }
 
   onError = err => { };
