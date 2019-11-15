@@ -22,11 +22,10 @@ class Chart extends Component {
           colors: ['#8D4752', '#2C3758', '#43546A']
         },
         dataLabels: {
-          colors: ['white'],
           enabled: false
         },
         xaxis: {
-          categories: ['GIT', 'Java', 'Javascript', 'CISCO CCNA', 'Exchange Server', 'SQL', 'Oracle', 'Virtual Systems'],
+          categories: ['GIT', 'Java', 'Javascript', 'CISCO CCNA', 'Exchange Server', 'SQL', 'Oracle', 'Virtual Systems']
         },
       },
       series: [{
