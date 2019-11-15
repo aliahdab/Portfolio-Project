@@ -13,7 +13,7 @@
   top: 0px;
   left: 0px;
   z-index: 99;
-  background: linear-gradient(to right, #af2020d5, #b32d2dd3, #cc5555de);
+  background: linear-gradient(to left, #4e627cd5, #2e3b64d3, #ff4d4d);
 }
 
 .navigation-container {
@@ -32,18 +32,13 @@
   color: beige;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
 .main_menu {
   margin-left: 30%;
   margin-right: 12%;
 }
 
 body {
+  color: #f8f8ff;
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.5;
   background: url('components/img/background.jpg') no-repeat center center fixed;
@@ -61,7 +56,7 @@ body {
 }
 
 a {
-  color: #bdcde4;
+  color: whitesmoke;
   text-decoration: none;
 }
 
@@ -79,7 +74,7 @@ a:hover {
   margin-left: 10%;
   margin-bottom: 0px;
   padding: 1%;
-  background: #1303034b;
+  background: #2c29292a;
 }
 
 p {
@@ -147,6 +142,7 @@ img {
 .experience-section-title,
 .skills-section-title,
 .project-section-title {
+  color: whitesmoke;
   margin: 10%;
   font-weight: bold;
   font-size: 1.4em;

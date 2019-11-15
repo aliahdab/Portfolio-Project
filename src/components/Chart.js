@@ -5,7 +5,6 @@ class Chart extends Component {
 
   constructor(props) {
     super(props);
-
     this.state = {
       options: {
         plotOptions: {
@@ -16,13 +15,14 @@ class Chart extends Component {
         },
         grid: {
           column: {
-            colors: ['#e6fff8', '#ffffe6', '#ffe6ff']
+            colors: ['white', '#ffffe6', '#ffe6ff']
           }
         },
         fill: {
-          colors: ['#7773ff', '#7fb1ff', '#87ebff']
+          colors: ['#8D4752', '#2C3758', '#43546A']
         },
         dataLabels: {
+          colors: ['white'],
           enabled: false
         },
         xaxis: {
