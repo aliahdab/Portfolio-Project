@@ -94,13 +94,20 @@ img.avatar {
   width: 15rem;
 }
 
-.home-my-name,
-.project-info-name {
+.home-my-name {
   margin: 20px;
   margin-left: 0px;
   font-size: 48px;
   line-height: 1;
-  color: #e7d3d3;
+  color: whitesmoke;
+}
+
+.project-name {
+  margin: 10px;
+  margin-left: 0px;
+  font-size: 28px;
+  line-height: 1;
+  color: whitesmoke;
 }
 
 .home-my-title,

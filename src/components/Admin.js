@@ -10,9 +10,9 @@ export class Admin extends Component {
     const projectDescription = document.getElementById('project-description');
     database.push({
       'project_name': projectName.value,
-      'project_description': projectDate.value,
+      'project_description': projectDescription.value,
       'project_url': projectUrl.value,
-      'project_date': projectDescription.value
+      'project_date': projectDate.value
     });
   }
 
