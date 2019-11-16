@@ -19,7 +19,7 @@ class Chart extends Component {
           }
         },
         fill: {
-          colors: ['#8D4752', '#2C3758', '#43546A']
+          colors: ['#8D4752', '#2C3758', '#F84C4D']
         },
         dataLabels: {
           enabled: false
