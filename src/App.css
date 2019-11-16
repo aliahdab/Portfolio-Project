@@ -19,7 +19,7 @@
 .navigation-container {
   display: flex;
   flex-direction: row;
-  width: 70%;
+  width: 100%;
   justify-content: space-between;
   padding-right: 2%;
   padding-left: 3%;
@@ -231,5 +231,5 @@ textarea {
 }
 
 .nav-words-admin {
-  color: white;
+  color: Transparent;
 }
