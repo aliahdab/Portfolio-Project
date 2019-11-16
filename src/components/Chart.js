@@ -15,7 +15,7 @@ class Chart extends Component {
         },
         grid: {
           column: {
-            colors: ['white', '#ffffe6', '#ffe6ff']
+            colors: ['#e6ffe6', '#fff0e6', '#e6f7ff']
           }
         },
         fill: {
