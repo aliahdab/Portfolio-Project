@@ -228,5 +228,8 @@ textarea {
 
 .log-section {
   margin-left: 30%;
+}
+
+.nav-words-admin {
   display: none;
 }
