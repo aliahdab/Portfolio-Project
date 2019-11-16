@@ -27,11 +27,11 @@ export class Admin extends Component {
           </label>
           <address className="admin-label">
             Project Address:
-             <input id='project-url' type="text" name="link" required />
+             <input id='project-url' type="url" name="link" required />
           </address>
           <label className="admin-label">
             Project Creation Date:
-             <input id='project-date' type="text" name="link" required />
+             <input id='project-date' type="date" name="link" required />
           </label>
           <label className="admin-label">
             Project Description:

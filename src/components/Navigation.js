@@ -21,9 +21,9 @@ function Navigation() {
               <Link to="/Projects" >
                 <li className='nav-words'>Projects</li>
               </Link>
-              <Link to="/Admin" >
+              {/* <Link to="/Admin" >
                 <li className='nav-words'>Admin</li>
-              </Link>
+              </Link> */}
             </ul>
           </nav>
         </div>

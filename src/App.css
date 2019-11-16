@@ -103,9 +103,7 @@ img.avatar {
 }
 
 .home-my-title,
-.home-my-description,
-.project-info-description,
-.project-info-url {
+.home-my-description {
   font-size: 20px;
   font-weight: 300;
   color: white;
@@ -175,7 +173,7 @@ img {
 
 .job-company,
 .project-name,
-.project-full_name {
+.project-repo {
   font-weight: bold;
   line-height: 1.2;
 }
