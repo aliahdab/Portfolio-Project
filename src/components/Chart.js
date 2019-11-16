@@ -25,13 +25,42 @@ class Chart extends Component {
           enabled: false
         },
         xaxis: {
-          categories: ['GIT', 'Java', 'Javascript', 'CISCO CCNA', 'Exchange Server', 'SQL', 'Oracle', 'Virtual Systems']
+          categories: ['GIT', 'Java', 'Javascript', 'CISCO CCNA', 'Exchange Server', 'SQL', 'Oracle', 'Virtual Systems'],
+          labels: {
+            show: true,
+            rotate: -45,
+            rotateAlways: false,
+            hideOverlappingLabels: true,
+            showDuplicates: false,
+            trim: true,
+            minHeight: undefined,
+            maxHeight: 120,
+            style: {
+              colors: '#ffffff',
+              fontSize: '12px',
+              fontFamily: 'Helvetica, Arial, sans-serif',
+              cssClass: 'apexcharts-xaxis-label',
+            },
+          }
+        },
+        yaxis: {
+          labels: {
+            show: true,
+            align: 'right',
+            minWidth: 0,
+            maxWidth: 160,
+            style: {
+              color: '#ffffff',
+              fontSize: '12px',
+              fontFamily: 'Helvetica, Arial, sans-serif',
+              cssClass: 'apexcharts-yaxis-label',
+            },
+          },
         },
       },
       series: [{
         data: [70, 80, 85, 95, 95, 75, 60, 70]
       }],
-
     }
   }
 
