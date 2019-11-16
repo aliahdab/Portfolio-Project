@@ -19,19 +19,20 @@ class Projects extends Component {
       return (
         <div className='project-info-container' key={index}>
           <div className='project-info-name'>{entity.project_name}</div>
-          <div className='project-info-description'>{entity.project_description}</div>
           <div className='project-info-url'>{entity.project_url}</div>
+          <div className='project-info-date'>{entity.project_date}</div>
+          <div className='project-info-description'>{entity.project_description}</div>
         </div>
       )
     });
   }
 
-  onError = err => { };
 
   getData = () => database.on('value', this.renderData, this.onError);
 
   render() {
     this.getData();
+    setTimeout(() => this.forceUpdate(), 1400);
     return (
       <div >
         <section className="projects-container">
