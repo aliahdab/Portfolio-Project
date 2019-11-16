@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import database from './Firebase';
+import firebase, { auth, provider } from './Firebase';
+
 
 
 class Projects extends Component {
-
   projectsList = [];
   extractData = data => {
     const evaData = data.val();
@@ -24,14 +25,12 @@ class Projects extends Component {
                 <div />
               </div>
             </div>
-
             <div className="project-date">
               {entity.project_date}
             </div>
           </div>
           <p className="project-p">{entity.project_description}</p>
         </div>
-
       )
     });
   }

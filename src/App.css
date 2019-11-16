@@ -61,7 +61,8 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+button:hover {
   text-decoration: underline;
 }
 
@@ -102,6 +103,7 @@ img.avatar {
   line-height: 1;
   color: whitesmoke;
 }
+
 .home-my-title,
 .home-my-description {
   font-size: 20px;
@@ -155,7 +157,8 @@ img {
   margin-right: 8px;
 }
 
-.job-p {
+.job-p,
+.project-p {
   margin: 2%;
   margin-left: 0%;
 }
@@ -213,6 +216,16 @@ textarea {
   height: 100%;
 }
 
-.project-description {
-  margin: 3%;
+.log-button {
+  background-color: Transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 80%;
+  color: whitesmoke;
+}
+
+.log-section {
+  margin-left: 30%;
 }

@@ -28,9 +28,6 @@ console.log(database);
 //   'project_date': '11/16/2019'
 // });
 
-
-
-
 // console.log('userId', userId);
 
 // function writeUserData(userId, name, email, imageUrl) {
@@ -40,5 +37,6 @@ console.log(database);
 //       profile_picture : imageUrl
 //     });
 //   }
-
+export const provider = new firebase.auth.GoogleAuthProvider();
+export const auth = firebase.auth();
 export default dataRef;

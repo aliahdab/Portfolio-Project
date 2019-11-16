@@ -8,7 +8,6 @@ class Skills extends Component {
       <div >
         <section class="skills-container">
           <div className="skills-section-title">Skills</div>
-
           <div class="skills-continent">
             <ul>
               <li> Having skill sets in backend development with Java.</li>
