@@ -3,20 +3,48 @@ import "firebase/auth";
 import "firebase/database";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDtn7znMJW-ve6DwTMAaMX8MRYzVi3x6OA",
-    authDomain: "samer-18396.firebaseapp.com",
-    databaseURL: "https://samer-18396.firebaseio.com",
-    projectId: "samer-18396",
-    storageBucket: "samer-18396.appspot.com",
-    messagingSenderId: "823385578435",
-    appId: "1:823385578435:web:25a1ce714ecf6803e8bb76",
-    measurementId: "G-HV8RX2EBVR"
+  apiKey: "AIzaSyATYdssiaji6mhrYRNHz7eyAc3cN7JSzZo",
+  authDomain: "portfolio-3d16a.firebaseapp.com",
+  databaseURL: "https://portfolio-3d16a.firebaseio.com",
+  projectId: "portfolio-3d16a",
+  storageBucket: "portfolio-3d16a.appspot.com",
+  messagingSenderId: "917006233554",
+  appId: "1:917006233554:web:fdb4f94cd2c3d52dbbe20b",
+  measurementId: "G-PDMBFGD5SY"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
 const database = firebase.database();
 const dataRef = database.ref('project_names');
+console.log(database);
 
+// dataRef.push({
+//   'project_name': 'Foo coding',
+//   'project_description': 'Web development',
+//   'project_url': 'https://github.com/Eid-Dauod/foo_coding_course',
+//   'project_date': '2012',
+// });
+
+// dataRef.push({
+//   'project_name': 'Portfolio',
+//   'project_full_name': 'Portfolio_Foocafe_Class',
+//   'project_description': ' I joined Click that was based in Damascus Syria and was responsible of Establishing and developing full IT projects, networking and infrastructure from initial conception to completion, as well of planning LAN and WAN networking projects, installing and configuring network infrastructure.',
+//   'project_url': 'https://github.com/Eid-Dauod/foo_coding_course',
+//   'project_date': '2012'
+// });
+
+
+
+
+// console.log('userId', userId);
+
+// function writeUserData(userId, name, email, imageUrl) {
+//     firebase.database().ref('users/' + userId).set({
+//       username: name,
+//       email: email,
+//       profile_picture : imageUrl
+//     });
+//   }
 
 export default dataRef;

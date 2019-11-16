@@ -13,7 +13,7 @@
   top: 0px;
   left: 0px;
   z-index: 99;
-  background: linear-gradient(to left, #4e627cd5, #2e3b64d3, #ff4d4d);
+  background: linear-gradient(to right, #4e627cd5, #2e3b64d3, #ff4d4d);
 }
 
 .navigation-container {
@@ -69,7 +69,7 @@ a:hover {
 .experience-container,
 .skills-container,
 .projects-container {
-  max-width: 42%;
+  max-width: 52%;
   margin: 7% auto;
   margin-left: 10%;
   margin-bottom: 0px;
@@ -108,8 +108,7 @@ img.avatar {
 .project-info-url {
   font-size: 20px;
   font-weight: 300;
-  color: black;
-  color: #e7d3d3;
+  color: white;
 }
 
 .home-links {
@@ -132,7 +131,8 @@ img {
   border-radius: 1%;
 }
 
-.job {
+.job,
+.project {
   margin-top: 5%;
   padding-bottom: 1%;
   margin-bottom: 2%;
@@ -161,7 +161,8 @@ img {
   margin-left: 0%;
 }
 
-.job-title-container {
+.job-title-container,
+.project-title-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 12px;
@@ -172,7 +173,9 @@ img {
   margin: 1.8%;
 }
 
-.job-company {
+.job-company,
+.project-name,
+.project-full_name {
   font-weight: bold;
   line-height: 1.2;
 }
