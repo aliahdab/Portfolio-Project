@@ -45,7 +45,8 @@ body {
   background-size: cover;
 }
 
-.home-icon {
+.home-icon,
+.project-icon {
   margin-right: 3px;
   padding: 1.5px;
   fill: currentColor;
@@ -115,7 +116,8 @@ img.avatar {
   color: #e7d3d3;
 }
 
-.home-link-item {
+.home-link-item,
+.project-link-item {
   margin: 5px;
   display: flex;
   align-items: center;

@@ -19,19 +19,13 @@ const database = firebase.database();
 const dataRef = database.ref('project_names');
 console.log(database);
 
-// dataRef.push({
-//   'project_name': 'Foo coding',
-//   'project_description': 'Web development',
-//   'project_url': 'https://github.com/Eid-Dauod/foo_coding_course',
-//   'project_date': '2012',
-// });
 
 // dataRef.push({
 //   'project_name': 'Portfolio',
 //   'project_full_name': 'Portfolio_Foocafe_Class',
 //   'project_description': ' I joined Click that was based in Damascus Syria and was responsible of Establishing and developing full IT projects, networking and infrastructure from initial conception to completion, as well of planning LAN and WAN networking projects, installing and configuring network infrastructure.',
-//   'project_url': 'https://github.com/Eid-Dauod/foo_coding_course',
-//   'project_date': '2012'
+//   'project_url': 'https://github.com/aliahdab/Portfolio-Project',
+//   'project_date': '11/16/2019'
 // });
 
 
