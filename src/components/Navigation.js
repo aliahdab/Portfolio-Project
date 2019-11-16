@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
-import firebase, { auth, provider } from './Firebase';
+import { auth, provider } from './Firebase';
 
 
 
@@ -26,7 +26,7 @@ class Navigation extends Component {
   login() {
     auth.signInWithPopup(provider)
       .then((result) => {
-        const navDom = document.getElementById('navigation-container');
+
         const user = result.user;
         this.setState({
           user
@@ -42,9 +42,6 @@ class Navigation extends Component {
         });
       });
   }
-
-
-
 
   render() {
     return (
@@ -66,7 +63,7 @@ class Navigation extends Component {
                   <li className='nav-words'>Projects</li>
                 </Link>
                 <Link to="/Admin" >
-                  <li className='nav-words'>Admin</li>
+                  <li className='nav-words-admin'>Admin</li>
                 </Link>
 
                 <div className="log-section" >
