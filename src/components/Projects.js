@@ -29,6 +29,7 @@ class Projects extends Component {
                 <a href={entity.project_url}> <div className="project-full_name">{entity.project_full_name}</div></a>
                 <div />
               </div>
+
               <div className="project-date">
                 {entity.project_date}
               </div>
