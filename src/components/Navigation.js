@@ -26,7 +26,8 @@ class Navigation extends Component {
   login() {
     auth.signInWithPopup(provider)
       .then((result) => {
-
+        const navWordsAdmin = document.getElementsByClassName('nav-words-admin');
+        navWordsAdmin[0].style.display = 'block';
         const user = result.user;
         this.setState({
           user
@@ -37,6 +38,8 @@ class Navigation extends Component {
   logout() {
     auth.signOut()
       .then(() => {
+        const navWordsAdmin = document.getElementsByClassName('nav-words-admin');
+        navWordsAdmin[0].style.display = 'none';
         this.setState({
           user: null
         });
@@ -72,11 +75,8 @@ class Navigation extends Component {
                     :
                     <button onClick={this.login} className="log-button">Sign In</button>
                   }
-
-
                 </div>
               </ul>
-
             </nav>
           </div>
         </header>
