@@ -6,9 +6,9 @@ class Skills extends Component {
   render() {
     return (
       <div >
-        <section class="skills-container">
+        <section className="skills-container">
           <div className="skills-section-title">Skills</div>
-          <div class="skills-continent">
+          <div className="skills-continent">
             <ul>
               <li> Having skill sets in backend development with Java.</li>
               <li> Familiar with object-oriented design methodologies and design patterns.</li>

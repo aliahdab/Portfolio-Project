@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 import { auth, provider } from './Firebase';
 
-
-
 class Navigation extends Component {
   constructor() {
     super();
@@ -31,7 +29,7 @@ class Navigation extends Component {
         const user = result.user;
         this.setState({
           user
-        });
+        });;
       });
   }
 
