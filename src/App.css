@@ -91,6 +91,7 @@ section {
 }
 
 img.avatar {
+  margin-top: 12%;
   width: 15rem;
 }
 
@@ -101,15 +102,6 @@ img.avatar {
   line-height: 1;
   color: whitesmoke;
 }
-
-.project-name {
-  margin: 10px;
-  margin-left: 0px;
-  font-size: 28px;
-  line-height: 1;
-  color: whitesmoke;
-}
-
 .home-my-title,
 .home-my-description {
   font-size: 20px;
