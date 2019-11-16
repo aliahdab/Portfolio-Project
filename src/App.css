@@ -19,17 +19,17 @@
 .navigation-container {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 70%;
   justify-content: space-between;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 2%;
+  padding-left: 3%;
   margin-right: auto;
   margin-left: auto;
   list-style: none;
 }
 
 .nav-words {
-  color: beige;
+  color: rgb(247, 247, 247);
 }
 
 .main_menu {
