@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Image from "./img/personal.jpg";
+import Image from "./img/Megan_Creegan.jpg";
 class Home extends Component {
   render() {
     return (
       <section className="home-container">
         <div > <img src={Image} alt="personal_photo" className="avatar" /></div>
         <div>
-          <div className="home-my-name">My Name</div>
+          <div className="home-my-name">Megan Creegan</div>
           <div className="home-my-title">Full Stack Web Developer</div>
           <p className="home-my-description">Highly motivated junior software developer, eager to learn and tackle new challenges.
             Works well independently and in teams. I am looking for a software development position where I could develop my skills.
