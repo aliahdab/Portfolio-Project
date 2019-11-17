@@ -25,7 +25,7 @@ class Chart extends Component {
           enabled: false
         },
         xaxis: {
-          categories: ['GIT', 'Java', 'Javascript', 'CISCO CCNA', 'Exchange Server', 'SQL', 'Oracle', 'Virtual Systems'],
+          categories: ['GIT', 'Java', 'Javascript', 'Cisco CCNA', 'Exchange Server', 'SQL', 'Oracle', 'Virtual Systems'],
           labels: {
             show: true,
             rotate: -45,

@@ -5,8 +5,6 @@ class Home extends Component {
 
   render() {
     return (
-
-
       <section className="experience-container">
         <div className="experience-section-title">Experience</div>
         <div>
