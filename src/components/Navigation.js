@@ -6,19 +6,12 @@ class Navigation extends Component {
   constructor() {
     super();
     this.state = {
-      currentItem: '',
-      username: '',
-      items: [],
+
       user: null,
     }
     this.login = this.login.bind(this);
     this.logout = this.logout.bind(this);
 
-  };
-  handleChange(e) {
-    this.setState({
-      [e.target.name]: e.target.value
-    })
   };
 
   login() {
@@ -27,6 +20,7 @@ class Navigation extends Component {
         const navWordsAdmin = document.getElementsByClassName('nav-words-admin');
         navWordsAdmin[0].style.display = 'block';
         const user = result.user;
+        console.log(user.displayName)
         this.setState({
           user
         });;
@@ -66,7 +60,6 @@ class Navigation extends Component {
                 <Link to="/Admin" >
                   <li className='nav-words-admin'>Admin</li>
                 </Link>
-
                 <div className="log-section" >
                   {this.state.user ?
                     <button onClick={this.logout} className="log-button">Sign Out</button>
@@ -82,6 +75,4 @@ class Navigation extends Component {
     )
   }
 }
-
-
 export default Navigation;

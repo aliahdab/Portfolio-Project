@@ -8,11 +8,9 @@ import Skills from './components/Skills';
 import Projects from './components/Projects.js';
 import Admin from './components/Admin.js';
 
-
 class App extends Component {
   render() {
     return (
-
       <Router>
         <div className="App">
           <Navigation></Navigation>
@@ -26,8 +24,6 @@ class App extends Component {
           </Switch>
         </div>
       </Router>
-
-
     )
   }
 }
