@@ -6,13 +6,12 @@ class Navigation extends Component {
   constructor() {
     super();
     this.state = {
-      currentItem: '',
-      username: '',
-      items: [],
+
       user: null,
     }
     this.login = this.login.bind(this);
     this.logout = this.logout.bind(this);
+
   };
 
   login() {
@@ -21,6 +20,7 @@ class Navigation extends Component {
         const navWordsAdmin = document.getElementsByClassName('nav-words-admin');
         navWordsAdmin[0].style.display = 'block';
         const user = result.user;
+        console.log(user.displayName)
         this.setState({
           user
         });;
