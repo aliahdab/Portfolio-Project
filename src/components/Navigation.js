@@ -13,12 +13,6 @@ class Navigation extends Component {
     }
     this.login = this.login.bind(this);
     this.logout = this.logout.bind(this);
-
-  };
-  handleChange(e) {
-    this.setState({
-      [e.target.name]: e.target.value
-    })
   };
 
   login() {
@@ -66,7 +60,6 @@ class Navigation extends Component {
                 <Link to="/Admin" >
                   <li className='nav-words-admin'>Admin</li>
                 </Link>
-
                 <div className="log-section" >
                   {this.state.user ?
                     <button onClick={this.logout} className="log-button">Sign Out</button>
@@ -82,6 +75,4 @@ class Navigation extends Component {
     )
   }
 }
-
-
 export default Navigation;
